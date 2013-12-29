@@ -8,11 +8,11 @@ gem 'rack', '~> 1.4.5'
 
 group :production do
   gem 'mysql2'
-  gem 'pg'
 end
 
 group :development, :test do
   gem 'sqlite3'
+	gem 'rspec-rails'
 end
 
 # Gems used only for assets and not required
